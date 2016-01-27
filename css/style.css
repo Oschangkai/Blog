@@ -115,17 +115,17 @@ a:hover {
 }
 #header h1 {
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 3.5em;
   line-height: 1;
 }
 #header h2 {
   font-weight: normal;
-  font-size: 0.9em;
+  font-size: 1.2em;
   line-height: 1;
   margin-top: 10px;
 }
 #header #main-nav {
-  font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, 'Songti SC', SimSun, serif;
   line-height: 2.5em;
 }
 #header #main-nav ul {
@@ -136,9 +136,12 @@ a:hover {
   margin-left: 30px;
 }
 article {
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
+  -webkit-box-shadow: 0 1px 2px #bbb;
+  box-shadow: 0 1px 2px #bbb;
   background: #fff;
+}
+article strong {
+  font-weight: bolder;
 }
 article.page {
   padding-left: 20px;
@@ -163,7 +166,7 @@ article.link .title a:after {
   vertical-align: super;
 }
 article .post-content {
-  padding: 20px 20px 15px 77px;
+  padding: 20px 77px 15px 77px;
   margin-bottom: 50px;
   position: relative;
 }
@@ -345,13 +348,14 @@ article .entry .video-container {
   margin-top: 15px;
 }
 article .entry blockquote {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  font-style: italic;
-  font-family: "Georgia", serif;
+  background: #f6f6f6;
+  border-left: 4px solid #999;
+  font-style: normal;
+  font-family: font-quote;
   font-size: 1.2em;
   padding: 0 30px 15px;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 article .entry blockquote footer {
   border-top: none;
@@ -370,12 +374,11 @@ article .entry pre {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
 }
 article .entry code {
-  background: #eee;
-  color: #666;
+  background: #fbedeb;
+  color: #e2678f;
   padding: 0 5px;
   margin: 0 2px;
   font-size: 0.9em;
-  border: 1px solid #ddd;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -391,6 +394,7 @@ article .entry pre {
 article .entry pre code {
   background: none;
   padding: 0;
+  color: #666;
   margin: 0;
   border: none;
   -webkit-border-radius: 0;
@@ -414,8 +418,7 @@ article .entry dl dl {
 }
 article .entry h1,
 article .entry h2 {
-  font-weight: normal;
-  border-bottom: 1px solid #ddd;
+  font-weight: bold;
   padding-bottom: 10px;
   margin-top: 20px;
 }
@@ -423,7 +426,7 @@ article .entry h3,
 article .entry h4,
 article .entry h5,
 article .entry h6 {
-  font-weight: normal;
+  font-weight: bold;
 }
 article .entry img,
 article .entry video {
@@ -585,9 +588,6 @@ article footer .addthis iframe {
   content: '\f07b';
 }
 .archive {
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
-  border-bottom: 1px solid #ddd;
   margin-bottom: 50px;
 }
 .archive article {
@@ -596,58 +596,6 @@ article footer .addthis iframe {
 }
 .archive article .post-content {
   margin-bottom: 0;
-}
-.archive article .post-content:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  height: 20%;
-  -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
-  -moz-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
-  -webkit-box-shadow: 0 15px 15px rgba(0,0,0,0.7);
-  box-shadow: 0 15px 15px rgba(0,0,0,0.7);
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  transform: rotate(-2deg);
-}
-.archive article .post-content:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  height: 20%;
-  -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
-  -moz-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
-  -webkit-box-shadow: 0 15px 15px rgba(0,0,0,0.7);
-  box-shadow: 0 15px 15px rgba(0,0,0,0.7);
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  transform: rotate(-2deg);
-  right: 10px;
-  left: auto;
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  transform: rotate(2deg);
 }
 #sidebar {
   width: 270px;
@@ -830,9 +778,6 @@ figure.highlight .code {
   padding-left: 15px;
   border-left: 1px solid #fff;
   color: #666;
-}
-figure.highlight .line {
-  height: 20px;
 }
 pre .comment,
 pre .template_comment,

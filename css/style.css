@@ -11,7 +11,6 @@
 }
 body {
   background: #eee;
-  background-image: url("/Blog/imgs/noise.png");
   color: #444;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 14px;
@@ -627,7 +626,8 @@ article footer .addthis iframe {
 #sidebar .widget ul,
 #sidebar .widget ol,
 #sidebar .widget dl {
-  list-style: disc;
+  list-style: none;
+  margin-left: 5px;
 }
 #sidebar .widget ul ul,
 #sidebar .widget ol ul,
@@ -639,7 +639,7 @@ article footer .addthis iframe {
 #sidebar .widget ol dl,
 #sidebar .widget dl dl {
   list-style: none;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 #sidebar .widget ul ul li:before,
 #sidebar .widget ol ul li:before,
@@ -650,7 +650,7 @@ article footer .addthis iframe {
 #sidebar .widget ul dl li:before,
 #sidebar .widget ol dl li:before,
 #sidebar .widget dl dl li:before {
-  content: '> ';
+  content: '>  ';
 }
 #sidebar .search {
   margin-bottom: 30px;

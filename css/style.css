@@ -15,6 +15,7 @@ body {
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 14px;
   text-shadow: 0 0 1px transparent;
+  background-image: url("/Blog/imgs/noise.png");
 }
 @media screen and (max-width: 1260px) {
   body {

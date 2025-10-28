@@ -1,0 +1,84 @@
+/* Text */
+:root {
+  text-autospace: normal;
+}
+
+/* Font */
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  font-family:
+    Inter,
+    "GenSenRoundedTW",
+    system-ui,
+    -apple-system,
+    segoe ui,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    apple color emoji,
+    segoe ui emoji;
+}
+
+code,
+kbd,
+pre {
+  font-family:
+    "Fira Code",
+    "Cascadia Code",
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    liberation mono,
+    courier new,
+    monospace;
+}
+
+code.language-bash,
+kbd.language-bash,
+pre.language-bash {
+  font-family:
+    "Cascadia Code",
+    "Fira Code",
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    liberation mono,
+    courier new,
+    monospace;
+}
+
+/* Header Font Weight */
+header #header_content #header_left .brand a {
+  font-weight: 500;
+}
+header #header_content #header_navbar li.header-menu-item a {
+  font-weight: 400;
+}
+
+/* Article Link Style */
+article a {
+  color: var(--color-text);
+  /* safari 26.0.1 is not support color, style, and thickness included in shorthand */
+  text-decoration: underline wavy 0.07em var(--color-border);
+  /* fix: stupid safari */
+  /* ignore thickness in safari for better visualize on both chrome and safari */
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 0.15em;
+  transition: text-decoration-color 150ms;
+}
+
+article a:hover,
+article a:focus {
+  text-decoration-color: var(--color-text);
+}

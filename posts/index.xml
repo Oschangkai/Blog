@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文章 on KaiYi 的五四三</title><link>https://blog.kaiyeee.tw/posts/</link><description>Recent content in 文章 on KaiYi 的五四三</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><managingEditor>Oschangkai</managingEditor><webMaster>Oschangkai</webMaster><copyright>Oschangkai</copyright><atom:link href="https://blog.kaiyeee.tw/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Dockerfile 常搞混的指令</title><link>https://blog.kaiyeee.tw/posts/dockerfile-confusing-instructions/</link><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate><author>Oschangkai</author><guid>https://blog.kaiyeee.tw/posts/dockerfile-confusing-instructions/</guid><description>
+&lt;h1 class="header-anchor-wrapper"&gt;Dockerfile 常搞混的指令
+&lt;a href="#dockerfile-%e5%b8%b8%e6%90%9e%e6%b7%b7%e7%9a%84%e6%8c%87%e4%bb%a4" class="header-anchor-link"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+stroke="currentColor" stroke-width="2" stroke-linecap="round"
+stroke-linejoin="round"&gt;
+&lt;line x1="4" y1="9" x2="20" y2="9"&gt;&lt;/line&gt;&lt;line x1="4" y1="15" x2="20" y2="15"&gt;&lt;/line&gt;&lt;line x1="10" y1="3" x2="8" y2="21"&gt;&lt;/line&gt;&lt;line x1="16" y1="3" x2="14" y2="21"&gt;&lt;/line&gt;
+&lt;/svg&gt;
+&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 class="header-anchor-wrapper"&gt;COPY 與 ADD
+&lt;a href="#copy-%e8%88%87-add" class="header-anchor-link"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+stroke="currentColor" stroke-width="2" stroke-linecap="round"
+stroke-linejoin="round"&gt;
+&lt;line x1="4" y1="9" x2="20" y2="9"&gt;&lt;/line&gt;&lt;line x1="4" y1="15" x2="20" y2="15"&gt;&lt;/line&gt;&lt;line x1="10" y1="3" x2="8" y2="21"&gt;&lt;/line&gt;&lt;line x1="16" y1="3" x2="14" y2="21"&gt;&lt;/line&gt;
+&lt;/svg&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;兩者都能把檔案複製進 image，&lt;code&gt;ADD&lt;/code&gt; 多了幾個功能：&lt;/p&gt;</description></item><item><title>Azure DevOps 多組織計費方式</title><link>https://blog.kaiyeee.tw/posts/azure-devops-multiple-organizations/</link><pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate><author>Oschangkai</author><guid>https://blog.kaiyeee.tw/posts/azure-devops-multiple-organizations/</guid><description>
+&lt;h1 class="header-anchor-wrapper"&gt;Azure DevOps 多組織計費方式
+&lt;a href="#azure-devops-%e5%a4%9a%e7%b5%84%e7%b9%94%e8%a8%88%e8%b2%bb%e6%96%b9%e5%bc%8f" class="header-anchor-link"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+stroke="currentColor" stroke-width="2" stroke-linecap="round"
+stroke-linejoin="round"&gt;
+&lt;line x1="4" y1="9" x2="20" y2="9"&gt;&lt;/line&gt;&lt;line x1="4" y1="15" x2="20" y2="15"&gt;&lt;/line&gt;&lt;line x1="10" y1="3" x2="8" y2="21"&gt;&lt;/line&gt;&lt;line x1="16" y1="3" x2="14" y2="21"&gt;&lt;/line&gt;
+&lt;/svg&gt;
+&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;同一個 tenant (directory) 中可以有多個 Azure Subscription (訂閱)，Azure DevOps 的費用是算在 Azure 訂閱中，並且同一個訂閱中可以有多個 Azure DevOps Organization (組織)。根據&lt;a href="https://learn.microsoft.com/en-us/azure/devops/organizations/billing/buy-basic-access-add-users?view=azure-devops#pay-for-a-user-once-across-multiple-organizations"&gt;官方文件&lt;/a&gt;開啟 multi-organization billing (多組織計費功能) 後，同一訂閱下的組織就會按真人使用者合併計費，而不是同一個使用者在不同組織計算兩個人頭費用。&lt;/p&gt;</description></item><item><title>Hello World</title><link>https://blog.kaiyeee.tw/posts/hello-world/</link><pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate><author>Oschangkai</author><guid>https://blog.kaiyeee.tw/posts/hello-world/</guid><description>紀念架站的第一篇文</description></item></channel></rss>
